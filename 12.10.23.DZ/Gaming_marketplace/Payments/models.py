@@ -4,3 +4,6 @@ from django.db import models
 class Games(models.Model):
     usernames = models.CharField(max_length=255)
     amount_money = models.IntegerField()
+    comment = models.TextField(blank=True)
+    # blank=True
+    
